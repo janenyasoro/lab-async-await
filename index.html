@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatbook</title>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" defer src="index.js"></script>
   </head>
   <body>
-    <header> Flatbook </header>
-    <ul id = 'post-list'>
-    </ul>
+    <!-- Header with Apple-style typography -->
+    <header>Flatbook</header>
+    
+    <!-- Wrapper for glassmorphism effect (Tests ignore this div, they target the ID below) -->
+    <div class="feed-container">
+        <ul id="post-list">
+           <!-- Javascript will populate this -->
+        </ul>
+    </div>
   </body>
 </html>
